@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading;
 namespace Pong
+	// This game is very good, and i love it
 {
     public class Game
     {
@@ -8,7 +9,7 @@ namespace Pong
 		private char[,] world;
 		private Border border;
 		private Puck puck;
-        private int xSpeed;
+        	private int xSpeed;
 
         // Handle object
         private Handle handle1, handle2;
